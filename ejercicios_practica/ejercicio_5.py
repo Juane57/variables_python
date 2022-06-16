@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -20,3 +20,6 @@ palabra_2 = str(input())
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+
+print(f"La nueva palabra que se formo es {palabra_1[:3] + palabra_2[:2]}")
+

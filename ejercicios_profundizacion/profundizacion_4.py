@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -45,3 +45,13 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+padre1=str(input("Ingrese el nombre de su padre: "))
+madre1=str(input("Ingrese el nombre de su mandre: "))
+hijo=str(input("Ingrese el nombre de su hijo "))
+
+nombre, apellido1 = padre1.split(" ")
+nombre, apeliido2 = madre1.split(" ")
+
+print(f"El nombre del hijo es {hijo}, {apellido1} {apeliido2}")
+

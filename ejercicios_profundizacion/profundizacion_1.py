@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -31,3 +31,22 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+numero_1= float(input("Ingrese su nmero: "))
+numero_2= float(input("Ingrese su nmero: "))
+
+#suma
+print(f" La suma entre {numero_1} y {numero_2} es {numero_1 + numero_2}")
+
+#resta
+print(f" La resta entre {numero_1} y {numero_2} es {numero_1 - numero_2}")
+
+#Multiplicacion
+print(f" La multiplicacion entre {numero_1} y {numero_2} es {numero_1 * numero_2}")
+
+#Division
+print(f" La division entre {numero_1} y {numero_2} es {numero_1 / numero_2}")
+
+#Petencia
+
+print(f" La potencia de {numero_1} sobre {numero_2} es {numero_1 ** numero_2}")

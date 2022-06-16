@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -38,3 +38,11 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+#Ingreso de Datos
+nombre= str(input("Ingrese su nombre completo: "))
+
+# Transformar e imprimir el nombre en los formatos requeridos
+
+print(nombre.lower())
+print(nombre.upper())
+print(nombre.capitalize())

@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de profundización
 
-# Autor: Inove Coding School
+# Autor: Juan Emilio Dalcol
 # Version: 2.0
 
 # NOTA: 
@@ -33,3 +33,15 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
 
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+# Carga de datos
+
+nombre =str(input("Ingrese el nombre completo: "))
+dni=int(input("Ingrese el DNI: "))
+altura=float(input("Ingrese la Altura: "))
+edad=int(input("Ingrese su edad: "))
+
+
+#Impime texto en dos lineas
+
+print(f"Nombre Completo: {nombre}, DNI:{dni}")
+print(f"Nombre Completo:{nombre}, Edad:{edad}, Altura: {altura}")
